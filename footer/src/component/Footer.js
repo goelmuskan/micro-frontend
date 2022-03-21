@@ -59,6 +59,7 @@ class Footer extends Component {
       title={title}
       columns={columns}
       linkedin="fluffy_cat_on_linkedin"
+      
       facebook="fluffy_cat_on_fb"
       twitter="fluffy_cat_on_twitter"
       instagram="fluffy_cat_live"
