@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PhotoPage from "./PhotoPage";
+
 
 import "./index.css";
 
 const App = () => (
+  
   <div className="container">
-    <div>Name: content</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Empty CSS</div>
+    
+    <PhotoPage />
   </div>
+  
+  
 );
 ReactDOM.render(<App />, document.getElementById("app"));
