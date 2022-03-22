@@ -44,7 +44,9 @@ module.exports = {
       name: "content",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./PhotoPage": "./src/PhotoPage.js",
+      },
       shared: {
         ...deps,
         react: {
