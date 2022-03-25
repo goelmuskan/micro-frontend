@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
-import Navbar from './components/Navbar';
+import Navbar from "./Components/Navbar";
 import "./index.scss";
 
 const App = () =>{

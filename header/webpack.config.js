@@ -46,7 +46,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./Header": "./src/components/Navbar.js",
+        "./Header": "./src/Comps/Navbar.js",
         //'./HeaderNavbar': './src/Components/Navbar',
       },
       shared: {
