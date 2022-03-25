@@ -43,9 +43,11 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "header",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+      },
       exposes: {
-        "./Navbar": "./src/Components/Navbar.js"
+        "./Header": "./src/components/Navbar.js",
+        //'./HeaderNavbar': './src/Components/Navbar',
       },
       shared: {
         ...deps,

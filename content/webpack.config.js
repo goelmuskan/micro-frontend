@@ -43,7 +43,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "content",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+      },
       exposes: {
         "./PhotoPage": "./src/PhotoPage.js",
       },

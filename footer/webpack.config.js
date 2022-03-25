@@ -43,7 +43,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "footer",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+
+      },
       exposes: {
 
         
