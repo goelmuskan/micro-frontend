@@ -3,5 +3,23 @@ body {
 }
 
 .container {
-  margin-top: 500px;
+  width:100%;
+}
+:root{
+  --primary-color:#f0f0f0;
+  --secondary-color:white;
+  --ternary-color:DarkSalmon;
+}
+
+.theme-light {
+   --primary-color:#f0f0f0;
+  --secondary-color:white;
+  --ternary-color:DarkSalmon;
+}
+
+/* --light-text is fine on on the first 3, --dark-text is fine on all of them, --dark-text and dark-background are fine as text on --accent */
+.theme-dark {
+  --primary-color:#212120;
+  --secondary-color:#323438;
+  --ternary-color:gray;
 }

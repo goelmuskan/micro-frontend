@@ -4,7 +4,7 @@ import DropFileInput from './DropFileInput';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
-//import Toggle from "./toggle"
+import Toggle from "./toggle"
 //import { useTranslation } from 'react-i18next';
 //import Test from './Test';
 //import { faSignout } from "@fortawesome/free-solid-svg-icons";
@@ -20,7 +20,18 @@ const PhotoPage = () => {
           <div id="white">
               <div id="top"></div>
               <div id="abc">
-                
+              <nav>
+                <ul>
+                        
+                        <li><a href="/"><FontAwesomeIcon icon={faHome} />home</a></li>
+                        <li><a href="#">Stream</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Logout</a></li>
+                        <Toggle />
+                    </ul>
+                    
+                </nav>
                 <p id="MText">What's next in Music</p>
               </div>
               <div id="pad">
